@@ -43,6 +43,6 @@ jobs:
         uses: pawtograder/assignment-action@main
         with:
           grading_server: 'https://udediaagwykgvdxfgrnw.supabase.co' ## https://api.pawtograder.com for prod, https://udediaagwykgvdxfgrnw.supabase.co for staging
-          handout_repo: 'pawtograder-playground/demo-java-project-handout'
+          handout_repo: 'pawtograder-playground/demo-java-handout-smaran'
           action_ref: '${{ github.action_ref }}'
           action_repository: '${{ github.action_repository }}'
