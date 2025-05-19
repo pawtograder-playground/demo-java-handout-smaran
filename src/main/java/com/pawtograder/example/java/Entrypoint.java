@@ -13,8 +13,7 @@ public class Entrypoint {
      * @return the sum of a and b
      */
     public int doMath(int a, int b) {
-        //TODO
-        return 0;
+        return a+b;
     }
 
     /**
@@ -22,7 +21,6 @@ public class Entrypoint {
      * @return
      */
     public String getMessage() {
-        //TODO
-        throw new UnsupportedOperationException("Not implemented");
+        return "Hello, World!";
     }
 } 
