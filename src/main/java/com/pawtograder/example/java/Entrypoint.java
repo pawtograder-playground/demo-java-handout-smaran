@@ -21,6 +21,7 @@ public class Entrypoint {
      * @return
      */
     public String getMessage() {
+        
         return "Hello, World!";
     }
 } 
